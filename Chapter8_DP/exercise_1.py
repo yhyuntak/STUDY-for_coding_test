@@ -7,39 +7,23 @@
 '''
 
 x = int(input())
-
-# 5,3,2 순으로 나눠보고..?
-
-d=[0]*30001
+d=[0]*(x+1)
 
 for i in range(2,x+1):
-    d[i] = d[i-1]+1
 
-    if i %2 == 0 :
-        d[i] = 
+    #무조건 1을 빼는 경우가 있으니까
+    d[i] = d[i-1] + 1
 
-count = 0
+    #그리고 2,3,5로 나눠지는 경우를 다 따져보자.
+    #이때 2,3,5 순으로 하는 것이 포인트다. 왜냐하면 작은수로 나눌수록 경우가 더 많아지기 때문이라 생각
+    if i % 2 == 0:
+        d[i] = min(d[i], d[i // 2] + 1)
+    if i % 3 == 0:
+        d[i] = min(d[i], d[i // 3] + 1)
+    if i % 5 == 0:
+        d[i] = min(d[i], d[i // 5] + 1)
 
+for j in range(1,len(d)):
+    print("f({0})의 경우의 수는 {1} 이다.".format(j,d[j]))
 
-
-while x != 1 :
-
-    if x // 5 != 0:
-        count += 1
-        count += x % 5
-        x -= x % 5
-        x = x // 5
-
-    elif x // 3 != 0:
-        count += 1
-        count += x % 3
-        x -= x % 3
-        x = x // 3
-
-    elif x // 2 != 0:
-        count += 1
-        count += x % 2
-        x -= x % 2
-        x = x // 2
-
-    print(x,count)
+print("결국 f({0})의 최단 경우의 수는 {1}이다.".format(x,d[x]))
