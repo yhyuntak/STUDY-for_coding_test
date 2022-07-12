@@ -20,7 +20,6 @@ def BFS(graph,V,visited):
                 visited[i] = True
                 q.append(i)
 
-
 N,M,V = map(int,input().split())
 graph = [[] for _ in range(N+1)]
 
