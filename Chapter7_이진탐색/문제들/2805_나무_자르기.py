@@ -8,7 +8,7 @@ trees = list(map(int,read().split()))
 trees.sort()
 
 # M을 맞추기 위해 노력하자
-start = 0
+start = 1
 end = max(trees)
 
 while (start<=end):
@@ -25,4 +25,4 @@ while (start<=end):
     else : # 너무 적게 잘랐으면 H를 줄이자.
         end = H-1
 
-print(H)
+print(end)
