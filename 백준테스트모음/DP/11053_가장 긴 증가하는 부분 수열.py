@@ -1,10 +1,14 @@
 import sys
+read = sys.stdin.readline
 
 N = int(input())
-numbers = list(map(int, sys.stdin.readline().split()))
-dp_table = [1] * N
+g = list(map(int,input().split()))
+
+d = [1 for _ in range(N)]
+
 for i in range(1,N):
     for j in range(i):
-        if numbers[i] > numbers[j] :
-            dp_table[i] = max(dp_table[i],dp_table[j]+1)
-print(max(dp_table))
+        if g[i] > g[j] : # 이어 붙일 수 있다는 증거
+            d[i] = max(d[j]+1,d[i])
+print(max(d))
+
