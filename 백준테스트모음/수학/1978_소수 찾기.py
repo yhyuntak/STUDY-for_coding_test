@@ -10,11 +10,8 @@ arrange_list = deque([i for i in range(2,max(array)+1)])
 save_list = []
 
 while arrange_list :
-
     now = arrange_list.popleft()
-
     temp_list = []
-
     while arrange_list :
         check = arrange_list.popleft()
         if check % now != 0 :
