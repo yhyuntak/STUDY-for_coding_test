@@ -1,3 +1,22 @@
+# 220916 (복기하기위해 한번더)
+
+N = int(input())
+d = [10e5 for _ in range(N+1)]
+d[0] = 0
+
+for day in range(3,N+1):
+    if day-5 >= 0 and d[day-5] != 10e5:
+        d[day] = min(d[day],d[day-5]+1)
+
+    if d[day-3] != 10e5 :
+        d[day] = min(d[day],d[day-3]+1)
+
+
+if d[N] != 10e5 :
+    print(d[N])
+else :
+    print(-1)
+
 
 # 220914 (dp로품)
 """
