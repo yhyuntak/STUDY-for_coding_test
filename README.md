@@ -18,8 +18,18 @@
 - **22.08.23 ~ 22.09.28** : 이 기간에는 [백준테스트모음](https://github.com/yhyuntak/STUDY-for_coding_test/tree/main/%EB%B0%B1%EC%A4%80%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%AA%A8%EC%9D%8C)에 코드와 함께 주석을 작성했다.
 - **22.09.29 ~** : 표로 공부 기록을 작성할 예정이다. 문제 난이도는 최소 실버5 이상만 풀자.
 
+- 다시 봐야할 것은 :ok_woman: 으로 체크하자.
+
+|날짜/일차|구현|DFS|이분탐색|그리디|BFS|정렬|시뮬|백트래킹|트리|DP|리뷰 링크|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|220929/N|[1316](https://www.acmicpc.net/problem/1316) |[1987](https://www.acmicpc.net/problem/1987):ok_woman: |[2512](https://www.acmicpc.net/problem/2512)|[13305](https://www.acmicpc.net/problem/13305)|||||||[링크]|
+|220930/N+1|   |   |   |   |  [2644](https://www.acmicpc.net/problem/1316) | [1764](https://www.acmicpc.net/problem/1764)  | [12100](https://www.acmicpc.net/problem/12100):ok_woman:   |   |   |   |   |
+|220101/N| [](https://www.acmicpc.net/problem/)  |   |   |   |   |   |   |   |   |   |   |
+
+
+
 | N 일차 | 풀어야 하는 문제들 | 푼 문제들 | 못 푼 문제들 | 리뷰 및 다시 볼 문제 체크 (:ok_woman:/:no_good:) |
 |:--:|:--:|:--:|:--:|:--:| 
-| 1 |  구현 : [1316](https://www.acmicpc.net/problem/1316) <br/> DFS : [1987](https://www.acmicpc.net/problem/1987) <br/> 이분탐색 : [2512](https://www.acmicpc.net/problem/2512) <br/> 그리디 : [13305](https://www.acmicpc.net/problem/13305)  <br/>   |  1316 <br/> 2512 <br/> 1715 |  2512(시간 초과) |  1987 : BFS로 푸는 것보다 DFS로 풀어야 하는 문제. 추가적으로 백트래킹 개념을 필히 공부하자. :ok_woman: <br/> 2512 : 아직도 start와 end를 결정 짓는 조건문과 언제 start,mid,end를 쓸지 헷갈린다. <br/> 1715 : heapq를 이용하는 문제인데.. 속도가 너무 느리다. | 
+| 1 |  구현 : <br/> DFS : <br/> 이분탐색 :  <br/> 그리디 :   <br/>   |  1316 <br/> 2512 <br/> 1715 |  2512(시간 초과) |  1987 : BFS로 푸는 것보다 DFS로 풀어야 하는 문제. 추가적으로 백트래킹 개념을 필히 공부하자. :ok_woman: <br/> 2512 : 아직도 start와 end를 결정 짓는 조건문과 언제 start,mid,end를 쓸지 헷갈린다. <br/> 1715 : heapq를 이용하는 문제인데.. 속도가 너무 느리다. | 
 |    |    |    |    |    | 
 
