@@ -27,4 +27,4 @@
 |220930/N+1|   |   |   |   |  [2644](https://www.acmicpc.net/problem/1316) | [1764](https://www.acmicpc.net/problem/1764)  | [12100](https://www.acmicpc.net/problem/12100):ok_woman:   |   |   |   | 
 |221003/N+2|   |   |   |   |   |   |   | [15649](https://www.acmicpc.net/problem/):ok_woman: | [1967](https://www.acmicpc.net/problem/):ok_woman:  |  [2579](https://www.acmicpc.net/problem/) [11726](https://www.acmicpc.net/problem/)  |
 |221004/N|[15686](https://www.acmicpc.net/problem/15686):ok_woman: |[1520](https://www.acmicpc.net/problem/1520):ok_woman: |[2467](https://www.acmicpc.net/problem/2467)||||||||
-
+|220930/N+1|   |   |   |   [1339](https://www.acmicpc.net/problem/1339):ok_woman:| [1389](https://www.acmicpc.net/problem/1389)  | [18870](https://www.acmicpc.net/problem/18870):ok_woman:   |   |   |   |  |
