@@ -20,8 +20,8 @@ for _ in range(N-1):
     trees[b].append([a,w])
 
 root_node = 1
-start_info = [0,0] # 시작 노드의 번호와 웨이트를 저장하는 것
-final_info = [0,0] # 시작 노드의 번호와 웨이트를 저장하는 것
+start_info = [0,0] # 시작 노드의 번호와 거리를 저장하는 것
+final_info = [0,0] # 끝 노드의 번호와 거리를 저장하는 것
 
 def start_dfs(node,dist,visited):
     # 일단 말단 노드에 도착했을 때가 그 루트의 최대 거리임을 기억하자.
