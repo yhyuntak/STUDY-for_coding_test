@@ -47,6 +47,8 @@ while L_arr :
                 for j in range(len_part):
                     new_graph[r+j][c+(len_part-1)-i] = graph[r+i][c+j]
 
+    for _ in range(len_graph):
+        print(new_graph[_])
     """
         
     얼음이 있는 칸이 3개 이상 인접해 있지 않은 것은 얼음의 양이 1 줄어든다.
